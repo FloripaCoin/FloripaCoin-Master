@@ -1,0 +1,14 @@
+--- 
+name: floripacoin
+urls:
+- http://floripacoin.co.nz/
+rss:
+- url: http://sourceforge.net/api/file/index/project-name/floripacoin/mtime/desc/limit/100/rss
+  xpath: //item/link/text()
+  pattern: floripacoin-\d+.\d+.\d+-win32-gitian.zip
+signers:
+  0000000000000000000000000000000000000000:
+    weight: 40
+    name: kimoto
+    key: kimoto
+minimum_weight: 120

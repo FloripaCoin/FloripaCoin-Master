@@ -1,0 +1,34 @@
+src/*.exe
+src/floripacoin
+src/floripacoind
+src/test_floripacoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.floripacoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+floripacoin-qt
+Floripacoin-Qt.app
+
+# Unit-tests
+Makefile.test
+floripacoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

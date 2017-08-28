@@ -1,0 +1,6 @@
+floripacoin-qt usr/bin
+share/pixmaps/floripacoin32.xpm usr/share/pixmaps
+share/pixmaps/floripacoin16.xpm usr/share/pixmaps
+share/pixmaps/floripacoin128.png usr/share/pixmaps
+debian/floripacoin-qt.desktop usr/share/applications
+debian/floripacoin-qt.protocol usr/share/kde4/services/

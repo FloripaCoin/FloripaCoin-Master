@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Floripacoin
+Comment=Floripacoin P2P Cryptocurrency
+Comment[fr]=Floripacoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Floripacoin, eşten eşe kriptografik sanal para birimi
+Exec=/usr/bin/floripacoin-qt
+Terminal=false
+Type=Application
+Icon=/usr/share/pixmaps/floripacoin128.png
+MimeType=x-scheme-handler/floripacoin;
+Categories=Office;
